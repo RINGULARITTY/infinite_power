@@ -1,0 +1,25 @@
+{
+	"entity.example_entity.ambient": {
+		"sounds": [
+			"infinite_power:example_entity_ambient"
+		]
+	},
+	
+	"entity.example_entity.death": {
+		"sounds": [
+			"infinite_power:example_entity_death"
+		]
+	},
+	
+	"entity.example_entity.hurt": {
+		"sounds": [
+			"infinite_power:example_entity_hurt"
+		]
+	},
+	
+	"block.toilet.fart": {
+		"sounds": [
+			"infinite_power:fart"
+		]
+	}
+}

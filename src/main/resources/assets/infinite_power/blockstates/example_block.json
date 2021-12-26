@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "infinite_power:block/example_block" }
+	}
+}

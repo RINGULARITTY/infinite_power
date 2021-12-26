@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "infinite_power:items/bean_hoe"
+	}
+}

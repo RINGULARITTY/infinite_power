@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+license="MIT"
+
+[[mods]]
+modId="infinite_power"
+version="0.1"
+displayName="Infinite Power"
+logoFile="logo.png"
+credits=""
+authors="RINGULARITY"
+description='''
+Reach the endlessness.
+'''
