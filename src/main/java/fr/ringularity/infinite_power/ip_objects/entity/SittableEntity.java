@@ -1,4 +1,4 @@
-package fr.ringularity.infinite_power.common.entity;
+package fr.ringularity.infinite_power.ip_objects.entity;
 
 import fr.ringularity.infinite_power.core.init.EntityInit;
 import net.minecraft.nbt.CompoundTag;

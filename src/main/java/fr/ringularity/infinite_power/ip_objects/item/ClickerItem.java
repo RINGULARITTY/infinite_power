@@ -1,4 +1,4 @@
-package fr.ringularity.infinite_power.common.item;
+package fr.ringularity.infinite_power.ip_objects.item;
 
 import fr.ringularity.infinite_power.InfinitePower;
 import net.minecraft.core.BlockPos;
@@ -33,8 +33,8 @@ public class ClickerItem extends Item {
     @Override
     public boolean isFoil(ItemStack stack) {
         final CompoundTag nbt = stack.getOrCreateTag();
-        return nbt.contains(InfinitePower.MODID, Tag.TAG_COMPOUND)
-                && nbt.getCompound(InfinitePower.MODID).contains("ContainedBlock", Tag.TAG_COMPOUND);
+        return nbt.contains(InfinitePower.MOD_ID, Tag.TAG_COMPOUND)
+                && nbt.getCompound(InfinitePower.MOD_ID).contains("ContainedBlock", Tag.TAG_COMPOUND);
     }
 
     @Override
@@ -46,12 +46,12 @@ public class ClickerItem extends Item {
                 || !state.canBeReplaced(new BlockPlaceContext(player, hand, stack, result)))
             return InteractionResultHolder.fail(stack);
 
-        if (!stack.getOrCreateTag().contains(InfinitePower.MODID, Tag.TAG_COMPOUND)) {
-            stack.getOrCreateTag().put(InfinitePower.MODID, new CompoundTag());
+        if (!stack.getOrCreateTag().contains(InfinitePower.MOD_ID, Tag.TAG_COMPOUND)) {
+            stack.getOrCreateTag().put(InfinitePower.MOD_ID, new CompoundTag());
             return InteractionResultHolder.fail(stack);
         }
 
-        final CompoundTag nbt = stack.getOrCreateTag().getCompound(InfinitePower.MODID);
+        final CompoundTag nbt = stack.getOrCreateTag().getCompound(InfinitePower.MOD_ID);
         if (!nbt.contains("ContainedBlock", Tag.TAG_COMPOUND))
             return InteractionResultHolder.fail(stack);
 
@@ -71,11 +71,11 @@ public class ClickerItem extends Item {
         if (!canInteract(player, pos))
             return InteractionResult.FAIL;
 
-        if (!stack.getOrCreateTag().contains(InfinitePower.MODID, Tag.TAG_COMPOUND)) {
-            stack.getOrCreateTag().put(InfinitePower.MODID, new CompoundTag());
+        if (!stack.getOrCreateTag().contains(InfinitePower.MOD_ID, Tag.TAG_COMPOUND)) {
+            stack.getOrCreateTag().put(InfinitePower.MOD_ID, new CompoundTag());
         }
 
-        final CompoundTag nbt = stack.getOrCreateTag().getCompound(InfinitePower.MODID);
+        final CompoundTag nbt = stack.getOrCreateTag().getCompound(InfinitePower.MOD_ID);
         if (!nbt.contains("ContainedBlock", Tag.TAG_COMPOUND)) {
             if (!state.isAir()) {
                 level.setBlockAndUpdate(pos, Blocks.AIR.defaultBlockState());

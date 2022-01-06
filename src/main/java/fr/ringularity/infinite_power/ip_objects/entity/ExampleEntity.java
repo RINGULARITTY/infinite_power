@@ -1,4 +1,4 @@
-package fr.ringularity.infinite_power.common.entity;
+package fr.ringularity.infinite_power.ip_objects.entity;
 
 import java.util.Random;
 
@@ -33,7 +33,7 @@ import net.minecraft.world.level.LevelAccessor;
 
 public class ExampleEntity extends Animal {
 
-    private static final ResourceLocation LOOT_TABLE = new ResourceLocation(InfinitePower.MODID,
+    private static final ResourceLocation LOOT_TABLE = new ResourceLocation(InfinitePower.MOD_ID,
             "entities/example_entity");
 
     public ExampleEntity(EntityType<? extends Animal> entityType, Level level) {

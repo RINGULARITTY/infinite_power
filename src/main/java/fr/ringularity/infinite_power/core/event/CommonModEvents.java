@@ -4,7 +4,7 @@ import fr.ringularity.infinite_power.InfinitePower;
 import fr.ringularity.infinite_power.core.init.EntityInit;
 import fr.ringularity.infinite_power.core.init.PacketHandler;
 import fr.ringularity.infinite_power.core.world.OreGeneration;
-import fr.ringularity.infinite_power.common.entity.ExampleEntity;
+import fr.ringularity.infinite_power.ip_objects.entity.ExampleEntity;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@Mod.EventBusSubscriber(modid = InfinitePower.MODID, bus = Bus.MOD)
+@Mod.EventBusSubscriber(modid = InfinitePower.MOD_ID, bus = Bus.MOD)
 public class CommonModEvents {
 
     @SubscribeEvent

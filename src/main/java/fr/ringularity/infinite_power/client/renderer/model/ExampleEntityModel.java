@@ -4,7 +4,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 
 import fr.ringularity.infinite_power.InfinitePower;
-import fr.ringularity.infinite_power.common.entity.ExampleEntity;
+import fr.ringularity.infinite_power.ip_objects.entity.ExampleEntity;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -18,7 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class ExampleEntityModel<Type extends ExampleEntity> extends EntityModel<Type> {
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
-			new ResourceLocation(InfinitePower.MODID, "example_entity"), "main");
+			new ResourceLocation(InfinitePower.MOD_ID, "example_entity"), "main");
 	
 	private final ModelPart body;
 

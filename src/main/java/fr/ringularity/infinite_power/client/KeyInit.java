@@ -17,7 +17,7 @@ public final class KeyInit {
     }
 
     private static KeyMapping registerKey(String name, String category, int keycode) {
-        final var key = new KeyMapping("key." + InfinitePower.MODID + "." + name, keycode, category);
+        final var key = new KeyMapping("key." + InfinitePower.MOD_ID + "." + name, keycode, category);
         ClientRegistry.registerKeyBinding(key);
         return key;
     }

@@ -17,7 +17,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
-@Mod.EventBusSubscriber(modid = InfinitePower.MODID, bus = Bus.FORGE)
+@Mod.EventBusSubscriber(modid = InfinitePower.MOD_ID, bus = Bus.FORGE)
 public class CommonForgeEvents {
     @SubscribeEvent(priority = EventPriority.HIGHEST)
     public static void biomeLoading(BiomeLoadingEvent event) {

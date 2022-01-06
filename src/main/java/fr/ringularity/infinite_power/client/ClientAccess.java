@@ -1,6 +1,6 @@
 package fr.ringularity.infinite_power.client;
 
-import fr.ringularity.infinite_power.common.block.entity.ToiletBlockEntity;
+import fr.ringularity.infinite_power.ip_objects.block.entity.ToiletBlockEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.entity.BlockEntity;

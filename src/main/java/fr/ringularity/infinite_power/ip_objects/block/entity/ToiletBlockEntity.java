@@ -1,10 +1,10 @@
-package fr.ringularity.infinite_power.common.block.entity;
+package fr.ringularity.infinite_power.ip_objects.block.entity;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-import fr.ringularity.infinite_power.common.entity.SittableEntity;
+import fr.ringularity.infinite_power.ip_objects.entity.SittableEntity;
 import fr.ringularity.infinite_power.core.network.ClientboundUpdateToiletPacket;
 import fr.ringularity.infinite_power.core.init.BlockEntityInit;
 import fr.ringularity.infinite_power.core.init.PacketHandler;

@@ -2,14 +2,14 @@ package fr.ringularity.infinite_power.client.renderer;
 
 import fr.ringularity.infinite_power.InfinitePower;
 import fr.ringularity.infinite_power.client.renderer.model.ExampleEntityModel;
-import fr.ringularity.infinite_power.common.entity.ExampleEntity;
+import fr.ringularity.infinite_power.ip_objects.entity.ExampleEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider.Context;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 
 public class ExampleEntityRenderer<Type extends ExampleEntity> extends MobRenderer<Type, ExampleEntityModel<Type>> {
 
-	private static final ResourceLocation TEXTURE = new ResourceLocation(InfinitePower.MODID,
+	private static final ResourceLocation TEXTURE = new ResourceLocation(InfinitePower.MOD_ID,
 			"textures/entities/example_entity.png");
 
 	public ExampleEntityRenderer(Context context) {

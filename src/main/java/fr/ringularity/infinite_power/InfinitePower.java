@@ -5,11 +5,8 @@ import java.util.Optional;
 
 import javax.annotation.Nonnull;
 
-import fr.ringularity.infinite_power.core.init.BlockEntityInit;
-import fr.ringularity.infinite_power.core.init.BlockInit;
-import fr.ringularity.infinite_power.core.init.EntityInit;
-import fr.ringularity.infinite_power.core.init.ItemInit;
-import fr.ringularity.infinite_power.core.init.SoundInit;
+import fr.ringularity.infinite_power.core.init.*;
+import fr.ringularity.infinite_power.utils.jsonRegister.JsonRegister;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,11 +19,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
-@Mod(InfinitePower.MODID)
+@Mod(InfinitePower.MOD_ID)
 public class InfinitePower {
-    public static final String MODID = "infinite_power";
+    public static final String MOD_ID = "infinite_power";
 
-    public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab(MODID) { // tutorialmod.itemGroup
+    public static final CreativeModeTab INFINITE_POWER_TAB = new CreativeModeTab(MOD_ID) { // tutorialmod.itemGroup
         @Override
         public ItemStack makeIcon() {
             return ItemInit.EXAMPLE_ENTITY_SPAWN_EGG.get().getDefaultInstance();
@@ -36,11 +33,17 @@ public class InfinitePower {
     public InfinitePower() {
         final var bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        MetalInit.create();
+
+        JsonRegister.setResourcesFolderPath("C:\\Users\\RINGULARITY\\Desktop\\forge_1.18\\src\\main\\resources");
+
         SoundInit.SOUNDS.register(bus);
         BlockInit.BLOCKS.register(bus);
         BlockEntityInit.BLOCK_ENTITIES.register(bus);
         ItemInit.ITEMS.register(bus);
         EntityInit.ENTITIES.register(bus);
+
+        JsonRegister.createJsonFiles();
     }
 
     public static VoxelShape calculateShapes(Direction to, VoxelShape shape) {

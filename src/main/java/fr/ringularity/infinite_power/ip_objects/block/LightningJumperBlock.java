@@ -1,4 +1,4 @@
-package fr.ringularity.infinite_power.common.block;
+package fr.ringularity.infinite_power.ip_objects.block;
 
 import java.util.EnumMap;
 import java.util.Map;
@@ -35,7 +35,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 public class LightningJumperBlock extends HorizontalDirectionalBlock {
 
-	@Mod.EventBusSubscriber(modid = InfinitePower.MODID, bus = Bus.FORGE)
+	@Mod.EventBusSubscriber(modid = InfinitePower.MOD_ID, bus = Bus.FORGE)
 	public static class Events {
 		@SubscribeEvent
 		public static void livingTick(LivingUpdateEvent event) {

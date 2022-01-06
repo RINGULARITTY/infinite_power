@@ -1,8 +1,9 @@
 package fr.ringularity.infinite_power.core.init;
 
 import fr.ringularity.infinite_power.InfinitePower;
-import fr.ringularity.infinite_power.common.block.LightningJumperBlock;
-import fr.ringularity.infinite_power.common.block.ToiletBlock;
+import fr.ringularity.infinite_power.ip_objects.block.LightningJumperBlock;
+import fr.ringularity.infinite_power.ip_objects.block.ToiletBlock;
+import fr.ringularity.infinite_power.ip_objects.group.IPMetal;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -15,7 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 public final class BlockInit {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
-            InfinitePower.MODID);
+            InfinitePower.MOD_ID);
 
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_BLUE)

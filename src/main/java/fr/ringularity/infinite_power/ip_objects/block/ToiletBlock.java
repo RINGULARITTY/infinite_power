@@ -1,10 +1,10 @@
-package fr.ringularity.infinite_power.common.block;
+package fr.ringularity.infinite_power.ip_objects.block;
 
 import java.util.EnumMap;
 import java.util.Map;
 
 import fr.ringularity.infinite_power.InfinitePower;
-import fr.ringularity.infinite_power.common.block.entity.ToiletBlockEntity;
+import fr.ringularity.infinite_power.ip_objects.block.entity.ToiletBlockEntity;
 import fr.ringularity.infinite_power.core.init.BlockEntityInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

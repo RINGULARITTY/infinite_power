@@ -3,7 +3,7 @@ package fr.ringularity.infinite_power.core.network;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Supplier;
 
-import fr.ringularity.infinite_power.common.block.entity.ToiletBlockEntity;
+import fr.ringularity.infinite_power.ip_objects.block.entity.ToiletBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.level.block.entity.BlockEntity;

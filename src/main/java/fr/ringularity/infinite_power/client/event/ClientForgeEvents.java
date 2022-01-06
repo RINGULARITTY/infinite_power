@@ -1,8 +1,8 @@
 package fr.ringularity.infinite_power.client.event;
 
 import fr.ringularity.infinite_power.InfinitePower;
-import fr.ringularity.infinite_power.common.block.entity.ToiletBlockEntity;
-import fr.ringularity.infinite_power.common.entity.SittableEntity;
+import fr.ringularity.infinite_power.ip_objects.block.entity.ToiletBlockEntity;
+import fr.ringularity.infinite_power.ip_objects.entity.SittableEntity;
 import fr.ringularity.infinite_power.client.KeyInit;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -11,7 +11,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
-@Mod.EventBusSubscriber(modid = InfinitePower.MODID, bus = Bus.FORGE, value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = InfinitePower.MOD_ID, bus = Bus.FORGE, value = Dist.CLIENT)
 public final class ClientForgeEvents {
     private ClientForgeEvents() {
     }

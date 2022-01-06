@@ -1,21 +1,9 @@
 {
-	"item.infinite_power.example_item": "Example Item",
-	"block.infinite_power.example_block": "Example Block",
-	"entity.infinite_power.example_entity": "Example Entity",
-	"item.infinite_power.example_entity_spawn_egg": "Spawn Example Entity",
-	"itemGroup.infinite_power": "Tutorial Mod",
-	"item.infinite_power.clicker": "Clicker",
-	"block.infinite_power.lightning_jumper": "Lightning Jumper",
-	"block.infinite_power.toilet": "Toilet",
-	"item.infinite_power.beans": "Beans",
-	"item.infinite_power.bean_sword": "Bean-Infused Sword",
-	"item.infinite_power.bean_pickaxe": "Bean-Infused Pickaxe",
-	"item.infinite_power.bean_shovel": "Bean-Infused Shovel",
-	"item.infinite_power.bean_axe": "Bean-Infused Axe",
-	"item.infinite_power.bean_hoe": "Bean-Infused Hoe",
-	"item.infinite_power.bean_helmet": "Bean-Infused Helmet",
-	"item.infinite_power.bean_chestplate": "Bean-Infused Chestplate",
-	"item.infinite_power.bean_leggings": "Bean-Infused Leggings",
-	"item.infinite_power.bean_boots": "Bean-Infused Boots",
-	"key.infinite_power.example_key": "Example Key"
+	"item.infinite_power.lead_bar": "Lead bar",
+	"item.infinite_power.lead_dust": "Lead dust",
+	"item.infinite_power.lead_ingot": "Lead ingot",
+	"item.infinite_power.lead_nugget": "Lead nugget",
+	"item.infinite_power.lead_plate": "Lead plate",
+	"item.infinite_power.lead_wire": "Lead wire",
+	"item.infinite_power.test": "Test"
 }
