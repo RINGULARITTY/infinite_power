@@ -34,7 +34,7 @@ public class IPMetal {
 
         bar = new IPItemBar(
                 nameId + "_bar",
-                "metals/bars/",
+                "metals/bars",
                 new Item.Properties().tab(InfinitePower.INFINITE_POWER_TAB),
                 List.of(
                         new TextComponent("Category : Metal/Bar")
@@ -47,7 +47,7 @@ public class IPMetal {
 
         dust = new IPItemDust(
                 nameId + "_dust",
-                "metals/dusts/",
+                "metals/dusts",
                 new Item.Properties().tab(InfinitePower.INFINITE_POWER_TAB),
                 List.of(
                         new TextComponent("Category : Metal/Dust")
@@ -60,7 +60,7 @@ public class IPMetal {
 
         ingot = new IPItemIngot(
                 nameId + "_ingot",
-                "metals/ingots/",
+                "metals/ingots",
                 new Item.Properties().tab(InfinitePower.INFINITE_POWER_TAB),
                 List.of(
                         new TextComponent("Category : Metal/Ingot")
@@ -73,7 +73,7 @@ public class IPMetal {
 
         nugget = new IPItemNugget(
                 nameId + "_nugget",
-                "metals/nuggets/",
+                "metals/nuggets",
                 new Item.Properties().tab(InfinitePower.INFINITE_POWER_TAB),
                 List.of(
                         new TextComponent("Category : Metal/Nugget")
@@ -86,7 +86,7 @@ public class IPMetal {
 
         plate = new IPItemPlate(
                 nameId + "_plate",
-                "metals/plates/",
+                "metals/plates",
                 new Item.Properties().tab(InfinitePower.INFINITE_POWER_TAB),
                 List.of(
                         new TextComponent("Category : Metal/Plate")
@@ -99,7 +99,7 @@ public class IPMetal {
 
         wire = new IPItemWire(
                 nameId + "_wire",
-                "metals/wires/",
+                "metals/wires",
                 new Item.Properties().tab(InfinitePower.INFINITE_POWER_TAB),
                 List.of(
                         new TextComponent("Category : Metal/Wire")

@@ -41,7 +41,7 @@ public class JsonBlockRegister extends JsonBasicRegister {
         return "{\n" +
                 "    \"parent\": \"block/cube_all\",\n" +
                 "    \"textures\": {\n" +
-                "        \"all\":\"" + MOD_ID + ":blocks/" + (!Objects.equals(customTextureFolder, "") ? customTextureFolder + "/" : "") + getNameId() + "\"\n" +
+                "        \"all\":\"" + MOD_ID + ":" + (!Objects.equals(customTextureFolder, "") ? customTextureFolder + "/" : "blocks/") + getNameId() + "\"\n" +
                 "    }\n" +
                 "}";
     }

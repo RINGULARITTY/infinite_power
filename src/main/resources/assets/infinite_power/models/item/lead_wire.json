@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "infinite_power:items/metals/wires//lead_wire"
+    "layer0": "infinite_power:metals/wires/lead_wire"
   }
 }

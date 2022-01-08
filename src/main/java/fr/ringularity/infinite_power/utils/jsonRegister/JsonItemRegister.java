@@ -23,7 +23,7 @@ public class JsonItemRegister extends JsonNameRegister {
         return "{\n" +
                 "  \"parent\": \"item/generated\",\n" +
                 "  \"textures\": {\n" +
-                "    \"layer0\": \"" + MOD_ID + ":items/" + (!Objects.equals(customTextureFolder, "") ? customTextureFolder + "/" : "") + getNameId() + "\"\n" +
+                "    \"layer0\": \"" + MOD_ID + ":" + (!Objects.equals(customTextureFolder, "") ? customTextureFolder + "/" : "items/") + getNameId() + "\"\n" +
                 "  }\n" +
                 "}";
     }

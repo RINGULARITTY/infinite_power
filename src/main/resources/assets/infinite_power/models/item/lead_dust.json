@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "infinite_power:items/metals/dusts//lead_dust"
+    "layer0": "infinite_power:metals/dusts/lead_dust"
   }
 }

@@ -1,9 +1,21 @@
 {
+	"item.infinite_power.copper_bar": "Copper bar",
+	"item.infinite_power.copper_dust": "Copper dust",
+	"item.infinite_power.copper_ingot": "Copper ingot",
+	"item.infinite_power.copper_nugget": "Copper nugget",
+	"item.infinite_power.copper_plate": "Copper plate",
+	"item.infinite_power.copper_wire": "Copper wire",
 	"item.infinite_power.lead_bar": "Lead bar",
 	"item.infinite_power.lead_dust": "Lead dust",
 	"item.infinite_power.lead_ingot": "Lead ingot",
 	"item.infinite_power.lead_nugget": "Lead nugget",
 	"item.infinite_power.lead_plate": "Lead plate",
 	"item.infinite_power.lead_wire": "Lead wire",
+	"item.infinite_power.tin_bar": "Tin bar",
+	"item.infinite_power.tin_dust": "Tin dust",
+	"item.infinite_power.tin_ingot": "Tin ingot",
+	"item.infinite_power.tin_nugget": "Tin nugget",
+	"item.infinite_power.tin_plate": "Tin plate",
+	"item.infinite_power.tin_wire": "Tin wire",
 	"item.infinite_power.test": "Test"
 }

@@ -18,6 +18,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.lwjgl.system.CallbackI;
 
 @Mod(InfinitePower.MOD_ID)
 public class InfinitePower {
@@ -35,7 +36,9 @@ public class InfinitePower {
 
         MetalInit.create();
 
-        JsonRegister.setResourcesFolderPath("C:\\Users\\RINGULARITY\\Desktop\\forge_1.18\\src\\main\\resources");
+        JsonRegister.enableLog();
+        //JsonRegister.setResourcesFolderPath("C:\\Users\\RINGULARITY\\Desktop\\forge_1.18\\src\\main\\resources");
+        JsonRegister.setResourcesFolderPath("/home/ringularity/Desktop/forge_1.18.1/src/main/resources/");
 
         SoundInit.SOUNDS.register(bus);
         BlockInit.BLOCKS.register(bus);
